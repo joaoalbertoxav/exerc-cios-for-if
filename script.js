@@ -84,12 +84,14 @@ let aluno = [
     if(aluno[index]. notaFinal >= 7) {
         console.log("o aluno", `${aluno[index].nome}`)
         console.log("de matricula", `${aluno[index].matricula}`)
+         console.log("com nota final", `${aluno[index].notaFinal}`)
         console.log ("passou direto")
     }
     
     else (aluno[index]. notaFinal < 7) 
     console.log("o aluno", `${aluno[index].nome}`)
         console.log("de matricula", `${aluno[index].matricula}`)
+      console.log("com nota final", `${aluno[index].notaFinal}`)
         console.log(" não passou, vai ter que fazer o pix")
  }
 
